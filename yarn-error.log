@@ -1,0 +1,60 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.16.0/libexec/bin/yarn.js install
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/Users/elvisjg/.nvm/versions/node/v12.4.0/bin:/Library/Frameworks/Python.framework/Versions/3.7/bin
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  11.13.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: EACCES: permission denied, mkdir '/Users/elvisjg/Documents/GitHub/Redux-Counter/node_modules/@jest/transform/node_modules/debug'
+
+npm manifest: 
+  {
+    "name": "counter",
+    "version": "0.0.22",
+    "private": true,
+    "devDependencies": {
+      "enzyme": "^3.10.0",
+      "react-scripts": "^3.0.1",
+      "react-test-renderer": "^16.8.6"
+    },
+    "dependencies": {
+      "prop-types": "^15.7.2",
+      "react": "^16.8.0",
+      "react-dom": "^16.8.0",
+      "react-redux": "^7.1.0",
+      "redux": "^4.0.1"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "eject": "react-scripts eject",
+      "test": "react-scripts test"
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
